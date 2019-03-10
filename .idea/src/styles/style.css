@@ -25,7 +25,10 @@ body, html {
     left: -17%;
 
 }
-
+#logo{
+    margin-top: 75px;
+    width: fit-content;
+}
 
 .input{
     width: 100%;
