@@ -1,8 +1,12 @@
+/*--------------------landing page----------------------------------------------*/
+
 body, html {
     height: 100%;
     margin: 0;
     direction: rtl;
 }
+
+
 .img{
     background-image: url("images/backgroundDesk.png");
     background-position: center;
@@ -64,4 +68,49 @@ body, html {
         left: -15%;
 
     }
+}
+/*--------------------PAGE 1----------------------------------------------*/
+#page1{
+    background-color: #f2eefa;
+}
+.container{
+    background: #e8e0d9;
+}
+.page1Btn{
+    width: auto;
+}
+.page1Logo{
+    margin: auto;
+}
+.col-3{
+    margin: auto;
+
+}
+.btn-secondary {
+    background-color: #e8e0d9;
+    border-color: #e8e0d9;
+}
+.btn.btn-light.dropdown-toggle{
+    max-width: 85px;
+}
+.timeEnter{
+    background-color: #ef7f28;
+    height: 85px;
+    margin-top: 82px;
+}
+.enterTime{
+    margin-top: 24px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: x-large;
+}
+.workedDay{
+   background-color: #e07640;
+    margin-top: 185px;
+}
+.workedMonth{
+    background-color: #e07640;
+    margin-top: 2px;
+    height: 100%;
+
 }
