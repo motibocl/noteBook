@@ -38,9 +38,7 @@ body, html {
     width: 100%;
     margin-top: 20%;
 }
-.img-fluid{
-    width: 60%;
-}
+
 .forgot{
     color: aliceblue;
     float: right;
@@ -73,7 +71,7 @@ body, html {
 #page1{
     background-color: #f2eefa;
 }
-.container{
+.container-fluid{
     background: #e8e0d9;
 }
 .page1Btn{
@@ -81,17 +79,25 @@ body, html {
 }
 .page1Logo{
     margin: auto;
+
+}
+.mainLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .col-3{
     margin: auto;
 
 }
+
 .btn-secondary {
     background-color: #e8e0d9;
     border-color: #e8e0d9;
 }
-.btn.btn-light.dropdown-toggle{
-    max-width: 85px;
+.btn.dropdown-toggle.pull-right{
+    max-width: 70px;
+    float: right;
 }
 .timeEnter{
     background-color: #ef7f28;
@@ -113,4 +119,7 @@ body, html {
     margin-top: 2px;
     height: 100%;
 
+}
+.date{
+    text-align: center;
 }
