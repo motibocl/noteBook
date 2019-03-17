@@ -31,7 +31,7 @@ body, html {
 }
 #logo{
     margin-top: 76px;
-    width: fit-content;
+    width: auto;
 }
 
 .input{
@@ -43,7 +43,7 @@ body, html {
     color: aliceblue;
     float: right;
     margin-left: 5px;
-    font-size: 28px;
+    font-size: 23px;
 }
 @media screen and (max-width:700px) {
     .img {
@@ -109,7 +109,7 @@ body, html {
     font-size: x-large;
 }
 .workedDay{
-   background-color: #e07640;
+    background-color: #e07640;
     margin-top: 185px;
 }
 .workedMonth{
@@ -133,6 +133,11 @@ body, html {
 .knisa {
     padding: initial;
     width: 40%;
+}
+#date{
+    color: #bf7095;
+    font-weight: 500;
+    font-size: 2.8vw;
 }
 /*------------------------PAGE 2 (SPECIAL REPORT)--------------------------------------------------*/
 .back{
